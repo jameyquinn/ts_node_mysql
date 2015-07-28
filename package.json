@@ -1,0 +1,23 @@
+{
+  "name": "ts_lambda_to_mysql",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "jshint ./lib/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/listen"
+  },
+  "author": "James Quinn <jamesquinn@okcollaborative.org> (http://www.okcollaborative.org)",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1.40",
+    "bluebird": "^2.9.34",
+    "lodash": "^3.10.0",
+    "mysql": "^2.8.0",
+    "nconf": "^0.7.1",
+    "winston": "^1.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  }
+}

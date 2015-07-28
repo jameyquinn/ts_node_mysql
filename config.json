@@ -1,0 +1,14 @@
+
+{
+  "MYSQL_DATABASE":"videos",
+  "MYSQL_PASSWORD":"secret",
+  "MYSQL_USER":"root",
+  "MYSQL_HOST":"192.168.59.104",
+  "MYSQL_PORT":"3306",
+  "aws": {
+    "region": "us-east-1",
+    "sqs":{
+      "queueUrl":"https://sqs.us-east-1.amazonaws.com/011955760856/teachstone-lambda-google-coding-submit"
+    }
+  }
+}
