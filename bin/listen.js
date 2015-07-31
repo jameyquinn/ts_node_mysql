@@ -8,3 +8,4 @@ var _       = require('lodash')
 log.info('starting SQS long-polling');
 
 queue.poll(config.get('aws:sqs:queueUrl'));
+
