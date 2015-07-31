@@ -1,10 +1,11 @@
 {
-  "name": "ts_lambda_to_mysql",
+  "name": "ts_node_mysql",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "lint": "jshint ./lib/*.js",
+    "lint": "jshint ./lib/*.js ./bin/*.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./bin/listen –-no-debug-brk",
     "start": "node ./bin/listen"
   },
   "author": "James Quinn <jamesquinn@okcollaborative.org> (http://www.okcollaborative.org)",
